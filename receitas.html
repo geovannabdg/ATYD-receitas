@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas de All The Young Dudes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>All The Young Dudes Receitas</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="historia.html">Nossa História</a>
+            <a href="receitas.html">Receitas</a>
+            <a href="galeria.html">Galeria</a>
+        </nav>
+    </header>
+    <section class="receitas">
+        <h2>Livro de Receitas</h2>
+        <p class="subtitulo">
+            Sabores inspirados em amizade, caos e algumas das melhores memórias de Hogwarts.
+        </p>
+        <div class="musica">
+            <p>
+                Antes de abrir este livro, coloque a trilha sonora para tocar.
+            </p>
+
+            <a href="https://open.spotify.com/playlist/6PHLs5X5XIAQAIARsWIRyl?si=bc5cdb59e20149b5&flow_ctx=92a47f10-d50e-4b8b-abeb-cc88cc83bb73%3A1782446040&pt_success=1&nd=1&dlsi=dabda5231fe44011" target="_blank" class="spotify">
+
+                <p>Ouça a Trilha Sonora, enquanto cozinha</p>
+
+            </a>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="img/TheGryffindorTowerSugarRush.png" alt="The Gryffindor Tower Sugar Rush">
+                <h3>The Gryffindor Tower Sugar Rush</h3>
+                <p class="frase">
+                    "Uma péssima ideia do James às 23h."
+                </p>
+                <button onclick="abrirReceita(this)">
+                    Ver Receita
+                </button>
+                <div class="receita-escondida">
+                    <h4>Ingredientes</h4>
+                    <ul>
+                        <li>1 xícara de farinha.</li>
+                        <li>1/2 xícara de açúcar mascavo.</li>
+                        <li>100 g de manteiga.</li>
+                        <li>gotas de chocolate.</li>
+                        <li>pedaços de caramelo.</li>
+                        <li>marshmallows pequenos.</li>
+                    </ul>
+                    <h4>Modo de Preparo</h4>
+                    <ol>
+                        <li>Misture manteiga e açúcar.</li>
+                        <li>Acrescente farinha até virar massa.</li>
+                        <li>Coloque chocolate e caramelo.</li>
+                        <li>Faça bolinhas grandes.</li>
+                        <li>Asse por 12 minutos a 180 °C</li>
+                        <li>Coloque marshmallows por cima ainda quente.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/FullMoonHoneyCake.png" alt="Full Moon Honey Cake">
+                <h3>Full Moon Honey Cake</h3>
+                <p class="frase">
+                    "Os marotos tentando fazer o Remus se sentir seguro."
+                </p>
+                <button onclick="abrirReceita(this)">
+                    Ver Receita
+                </button>
+                <div class="receita-escondida">
+                    <h4>Ingredientes</h4>
+                    <ul>
+                        <li>2 ovos.</li>
+                        <li>1/2 xícara de mel.</li>
+                        <li>1/2 xícara de açúcar.</li>
+                        <li>1/2 xícara de leite.</li>
+                        <li>2 colheres de manteiga.</li>
+                        <li>1 e 1/2 xícara de farinha.</li>
+                        <li>canela.</li>
+                        <li>noz-moscada.</li>
+                        <li>fermento.</li>
+                    </ul>
+                    <h4>Modo de Preparo</h4>
+                    <ol>
+                        <li>Bata ovos, açúcar e mel.</li>
+                        <li>Acrescente manteiga derretida e leite.</li>
+                        <li>Adicione farinha e especiarias.</li>
+                        <li>Misture fermento.</li>
+                        <li>Asse por 35 minutos a 180 °C.</li>
+                        <li>Finalize com mel por cima.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/TeaatMcGonagall's.png" alt="Tea at McGonagall's">
+                <h3>Tea at McGonagall's</h3>
+                <p class="frase">
+                    "Biscoitos que claramente seriam servidos com olhar julgador."
+                </p>
+                <button onclick="abrirReceita(this)">
+                    Ver Receita
+                </button>
+                <div class="receita-escondida">
+                    <h4>Ingredientes</h4>
+                    <ul>
+                        <li>200 g de manteiga.</li>
+                        <li>1/2 xícara de açúcar.</li>
+                        <li>2 xícaras de farinha.</li>
+                        <li>baunilha.</li>
+                    </ul>
+                    <h4>Modo de Preparo</h4>
+                    <ol>
+                        <li>Misture tudo até formar massa.</li>
+                        <li>Abra com rolo.</li>
+                        <li>Corte em retângulos.</li>
+                        <li>Fure com garfo.</li>
+                        <li>Asse por 20 minutos a 170 °C.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/MischiefManagedFudge.png" alt="Mischief Managed Fudge">
+                <h3>Mischief Managed Fudge</h3>
+                <p class="frase">
+                    "Doce demais até pro Sirius admitir."
+                </p>
+                <button onclick="abrirReceita(this)">
+                    Ver Receita
+                </button>
+                <div class="receita-escondida">
+                    <h4>Ingredientes</h4>
+                    <ul>
+                        <li>1 lata de leite condensado.</li>
+                        <li>200 g de chocolate meio amargo.</li>
+                        <li>1 colher de manteiga.</li>
+                        <li>pitada de sal.</li>
+                        <li>nozes opcionais.</li>
+                    </ul>
+                    <h4>Modo de Preparo</h4>
+                    <ol>
+                        <li>Derreta tudo em fogo baixo.</li>
+                        <li>Mexa até engrossar.</li>
+                        <li>Coloque numa forma pequena.</li>
+                        <li>Gele por 3 horas. </li>
+                        <li>Corte em quadrados.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/AllTheYoungDudesToffeeTart.jpeg" alt="All The Young Dudes Toffee Tart">
+                <h3> All The Young Dudes Toffee Tart</h3>
+                <p class="frase">
+                    "Tem gosto de amizade, juventude e sofrimento emocional."
+                </p>
+                <button onclick="abrirReceita(this)">
+                    Ver Receita
+                </button>
+                <div class="receita-escondida">
+                    <h4>Ingredientes</h4>
+                    <ul>
+                        <li>massa de torta.</li>
+                        <li>1 lata de doce de leite.</li>
+                        <li>1 caixa de creme de leite.</li>
+                        <li>pitada de sal .</li>
+                        <li>chocolate ralado .</li>
+                    </ul>
+                    <h4>Modo de Preparo</h4>
+                    <ol>
+                        <li>Asse a massa da torta.</li>
+                        <li>Misture doce de leite com creme de leite.</li>
+                        <li>Coloque sobre a base.</li>
+                        <li>Acrescente chocolate por cima.</li>
+                        <li>Gele por 2 horas antes de servir.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/biscoitosSalaComunal.jpeg" alt="Biscoitos da Sala Comunal">
+                <h3>Biscoitos da Sala Comunal</h3>
+                <p class="frase">
+                    "Para dividir com os amigos depois das aulas."
+                </p>
+                <button onclick="abrirReceita(this)">
+                    Ver Receita
+                </button>
+                <div class="receita-escondida">
+                    <h4>Ingredientes</h4>
+                    <ul>
+                        <li>100 g de manteiga.</li>
+                        <li>½ xícara de açúcar.</li>
+                        <li>1 ovo.</li>
+                        <li>1½ xícara de farinha.</li>
+                        <li>Gotas de chocolate.</li>
+                    </ul>
+                    <h4>Modo de Preparo</h4>
+                    <ol>
+                        <li>Misture manteiga e açúcar.</li>
+                        <li>Acrescente o ovo.</li>
+                        <li>Adicione a farinha e as gotas de chocolate.</li>
+                        <li>Faça bolinhas.</li>
+                        <li>Asse a 180°C por 12 a 15 minutos.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/tortaMaca.jpeg" alt="Torta de Maçã da Plataforma 9¾">
+                <h3>Torta de Maçã da Plataforma 9¾</h3>
+                <p class="frase">
+                    "Inspirada nas despedidas e reencontros das viagens de trem."
+                </p>
+                <button onclick="abrirReceita(this)">
+                    Ver Receita
+                </button>
+                <div class="receita-escondida">
+                    <h4>Ingredientes</h4>
+                    <ul>
+                        <li>4 maçãs.</li>
+                        <li>1 massa pronta para torta.</li>
+                        <li>3 colheres (sopa) de açúcar.</li>
+                        <li>Canela a gosto.</li>
+                    </ul>
+                    <h4>Modo de Preparo</h4>
+                    <ol>
+                        <li>Corte as maçãs em fatias.</li>
+                        <li>Misture com açúcar e canela.</li>
+                        <li>Coloque sobre a massa.</li>
+                        <li>Asse por cerca de 35 minutos a 180°C.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/tortaAmora.jpeg" alt="Torta de Amora">
+                <h3>Torta de Amora "Verões que Duram para Sempre"</h3>
+                <p class="frase">
+                    "Inspirada nos verões em Grantchester, quando tudo parecia mais simples."
+                </p>
+                <button onclick="abrirReceita(this)">
+                    Ver Receita
+                </button>
+                <div class="receita-escondida">
+                    <h4>Ingredientes da Massa</h4>
+                    <ul>
+                        <li>250 g de farinha.</li>
+                        <li>125 g de manteiga gelada.</li>
+                        <li>1 gema.</li>
+                        <li>2 colheres de sopa de açúcar.</li>
+                    </ul>
+                    <h4>Ingredientes do Recheio</h4>
+                    <ul>
+                        <li>400 g de amoras.</li>
+                        <li>100 g de açúcar.</li>
+                        <li>Suco de 1 limão.</li>
+                        <li>1 colher de sopa de amido de milho.</li>
+                    </ul>
+                    <h4>Modo de Preparo</h4>
+                    <ol>
+                        <li>Misture a farinha, o açúcar e a manteiga até formar uma farofa.</li>
+                        <li>Acrescente a gema e um pouco de água gelada.</li>
+                        <li>Deixe descansar na geladeira por 30 minutos.</li>
+                        <li>Cozinhe as amoras com açúcar e limão.</li>
+                        <li>Quando engrossar, adicione o amido dissolvido.</li>
+                        <li>Monte a torta.</li>
+                        <li>Asse por cerca de 40 minutos a 180°C.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/risotoCogumelos.jpeg" alt="Risoto de Cogumelos">
+                <h3>Risoto de Cogumelos "Luzes da Torre de Astronomia"</h3>
+                <p class="frase">
+                    "Para uma noite fria em Hogwarts, quando Remus está acordado lendo enquanto todos dormem."
+                </p>
+                <button onclick="abrirReceita(this)">
+                    Ver Receita
+                </button>
+                <div class="receita-escondida">
+                    <h4>Ingredientes</h4>
+                    <ul>
+                        <li>1 xícara de arroz arbóreo.</li>
+                        <li>200 g de cogumelos frescos.</li>
+                        <li>1 cebola pequena.</li>
+                        <li>1 litro de caldo de legumes.</li>
+                        <li>100 ml de vinho branco.</li>
+                        <li>50 g de parmesão.</li>
+                        <li>1 colher de sopa de manteiga.</li>
+                    </ul>
+                    <h4>Modo de Preparo</h4>
+                    <ol>
+                        <li>Refogue a cebola.</li>
+                        <li>Adicione os cogumelos.</li>
+                        <li>Acrescente o arroz e o vinho.</li>
+                        <li>Vá adicionando o caldo aos poucos.</li>
+                        <li>Finalize com manteiga e parmesão.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/macarraoLimao.jpeg" alt="Macarrão ao Limão Siciliano">
+                <h3>Macarrão ao Limão Siciliano "Último Ano"</h3>
+                <p class="frase">
+                    "Quando a felicidade existe, mas já vem acompanhada da saudade."
+                </p>
+                <button onclick="abrirReceita(this)">
+                    Ver Receita
+                </button>
+                <div class="receita-escondida">
+                    <h4>Ingredientes</h4>
+                    <ul>
+                        <li>300 g de fettuccine.</li>
+                        <li>1 limão siciliano.</li>
+                        <li>200 ml de creme de leite fresco.</li>
+                        <li>50 g de parmesão.</li>
+                        <li>Pimenta-do-reino.</li>
+                    </ul>
+                    <h4>Modo de Preparo</h4>
+                    <ol>
+                        <li>Cozinhe o macarrão.</li>
+                        <li>Misture o creme de leite, as raspas e o suco do limão.</li>
+                        <li>Junte o parmesão.</li>
+                        <li>Incorpore ao macarrão.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script> 
+</body>
+</html>
